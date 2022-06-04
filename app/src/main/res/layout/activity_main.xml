@@ -17,9 +17,11 @@
             android:id="@+id/imageView"
             android:layout_width="411dp"
             android:layout_height="731dp"
+            android:onClick="onClickStepsActivity"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/_9581802cf946e2" />
+            app:srcCompat="@drawable/_9581802cf946e2"
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </FrameLayout>
 
