@@ -132,14 +132,14 @@
                 app:srcCompat="@drawable/card3" />
 
             <Button
+                android:onClick="onClickStepsActivity"
                 android:id="@+id/button2"
                 android:layout_width="337dp"
                 android:layout_height="55dp"
                 android:layout_marginStart="35dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginEnd="35dp"
-                android:background="@drawable/back2"
-
+                android:backgroundTint="#FFB900"
                 android:text="Book"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.466"
