@@ -14,7 +14,9 @@
         android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/content" />
+        app:srcCompat="@drawable/content"
+        tools:ignore="ImageContrastCheck"
+        android:contentDescription="TODO" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -26,10 +28,20 @@
             android:id="@+id/imageView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="25dp"
             android:onClick="onClickStepsActivity"
             app:srcCompat="@drawable/icons8_xbox_menu_filled_50"
-            tools:ignore="SpeakableTextPresentCheck" />
+            tools:ignore="SpeakableTextPresentCheck"
+            android:contentDescription="TODO" />
+
+        <ImageView
+            android:id="@+id/imageView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/car2"
+            android:layout_marginTop="402dp"
+            android:layout_marginStart="40dp"
+            android:contentDescription="TODO" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
